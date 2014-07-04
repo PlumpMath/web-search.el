@@ -1,0 +1,21 @@
+** About
+
+Emacs package for searching some text on the Internet using various
+web-search engines.
+
+Similar packages:
+- webjump.el (a part of Emacs)
+- [[https://github.com/tomoya/search-web.el]]
+- [[https://github.com/xahlee/lookup-word-on-internet.el]]
+
+** Usage
+
+: M-x web-search
+
+You will be prompted for a string (selected region is the default value)
+and for an engine (like =emacswiki= or =duckduckgo=) and =browse-url=
+function will be called.
+
+To add a new engine, use =web-search-add-engine= function.
+
+See also the commentary of [[https://github.com/alezost/web-search.el/blob/master/web-search.el][web-search.el]].
