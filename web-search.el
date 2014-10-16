@@ -86,6 +86,8 @@ To add an engine to this list, use `web-search-add-engine'.")
                "http://www.google.com/cse?cx=004774160799092323420:6-ff2s0o6yi&q=%s&sa=Search&siteurl=emacswiki.org/")
     (archwiki "ArchWiki"
               "https://wiki.archlinux.org/index.php?search=%s")
+    (debbugs "GNU Bug Tracker"
+             "http://debbugs.gnu.org/cgi/bugreport.cgi?bug=%s")
     (wikipedia-en "Wikipedia (english)"
                   "http://en.wikipedia.org/wiki/%s")
     (wiktionary-en "Wiktionary (english)"
