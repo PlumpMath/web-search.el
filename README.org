@@ -18,4 +18,4 @@ function will be called.
 
 To add a new engine, use =web-search-add-engine= function.
 
-See also the commentary of [[https://github.com/alezost/web-search.el/blob/master/web-search.el][web-search.el]].
+See also the commentary of =web-search.el=.
